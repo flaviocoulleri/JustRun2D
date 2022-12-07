@@ -1,0 +1,40 @@
+*{
+    font-family: 'Sen', sans-serif;
+	margin: 0;
+	padding: 0;
+    
+}
+body{
+    width: 100vw;
+	height: 100vh;
+   background-color: aquamarine;
+}
+.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: .3em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+.container p{
+    text-align: center;
+}
+.section{
+    display: block;
+    position: absolute;
+    justify-content: left;
+    padding: .5;
+}
+.master-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
