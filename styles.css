@@ -5,7 +5,7 @@
 }
 body{
   background: #4abdac;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .gallery {
   display: grid;
@@ -38,6 +38,7 @@ nav h1 {
   font-size: 28px;
   font-weight: bold;
   margin: 0;
+  font-family: 'Bebas Neue', cursive;
 }
 
 nav ul {
@@ -70,27 +71,38 @@ nav a:hover {
   nav h1 {
     margin: 0 auto;
   }
+  #trailer{
+
+  }
 }
 footer {
-  background: linear-gradient(to bottom, #333333, #666666);
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
-footer a:hover {
+
+.pie {
+  text-align: center;
+  font-size: 18px;
+}
+
+.pie {
   color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid #fff;
+  transition: color 0.2s;
 }
-footer {
-  border-top: 1px solid #ccc;
+
+footer a:hover {
+  color: #007bff;
 }
-footer {
-  padding: 20px;
-  margin-top: 50px;
-}
+
 #trailer{
   margin-top: 1rem;
   text-align: center;
 }
 #descripcion {
+  margin-top: 2rem;
   text-align: center;
 }
 #fotos {
@@ -118,4 +130,11 @@ footer {
   background-color: #0069d9;
   cursor: pointer;
   transform: translateY(-2px);
+}
+
+.trailer-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
